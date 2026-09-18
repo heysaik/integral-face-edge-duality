@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the specific release or commit of this unreviewed preprint."
+type: article
+title: "Integral face-edge duality for knot triangulations"
+authors:
+  - family-names: Kambampati
+    given-names: Sai
+    email: sai@kambampati.studio
+version: "v1"
+date-released: 2026-09-18
+repository-code: "https://github.com/heysaik/integral-face-edge-duality"
+url: "https://github.com/heysaik/integral-face-edge-duality/releases/tag/v1"
+keywords:
+  - geometric topology
+  - ideal triangulations
+  - gluing equations
+  - FAMED
+  - integral lattices

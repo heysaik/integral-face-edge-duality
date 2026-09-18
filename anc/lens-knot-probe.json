@@ -1,0 +1,1191 @@
+{
+  "seed": 20260914038,
+  "manifold": "m016",
+  "max_states": 100,
+  "max_tetrahedra": 10,
+  "states_generated": 100,
+  "unique_states": 49,
+  "strict_states": 25,
+  "total_orders_checked": 17,
+  "rows": [
+    {
+      "state": 1,
+      "n": 3,
+      "isosig": "dLQacccjsnk",
+      "path": [],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 2,
+      "n": 4,
+      "isosig": "eLAkaccddjgbak",
+      "path": [
+        [
+          "face",
+          3
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 4,
+      "n": 4,
+      "isosig": "eLPkbcddddkwrc",
+      "path": [
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 7,
+      "n": 5,
+      "isosig": "fLLQcaddeeeniappc",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 8,
+      "n": 4,
+      "isosig": "eLAkbbcdddhgxk",
+      "path": [
+        [
+          "face",
+          0
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 11,
+      "n": 5,
+      "isosig": "fLLQcbcdeeepfrede",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 12,
+      "n": 6,
+      "isosig": "gLLPQccdfeffdvkaaof",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 13,
+      "n": 5,
+      "isosig": "fLAPcbcceeedmgsgw",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          2
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 15,
+      "n": 4,
+      "isosig": "eLAkaccddjgnqw",
+      "path": [
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 1,
+      "order_enumeration_complete": true,
+      "determinants": [
+        -1
+      ]
+    },
+    {
+      "state": 16,
+      "n": 6,
+      "isosig": "gvLQQcdfeeffkolffqi",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          2
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 17,
+      "n": 5,
+      "isosig": "fLAMcaccdeengbqhr",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 20,
+      "n": 5,
+      "isosig": "fLLQcadedeejaalds",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          5
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 21,
+      "n": 6,
+      "isosig": "gLLAQbcdefffegchuww",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          7
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 23,
+      "n": 5,
+      "isosig": "fLLQcbcedeeljhkdd",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 28,
+      "n": 5,
+      "isosig": "fLLQcacdeeejkaiow",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 1,
+      "order_enumeration_complete": true,
+      "determinants": [
+        -1
+      ]
+    },
+    {
+      "state": 29,
+      "n": 3,
+      "isosig": "dLQacccjnbs",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 33,
+      "n": 5,
+      "isosig": "fLLQccceddeqfajwr",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 35,
+      "n": 4,
+      "isosig": "eLAkaccddjgbqj",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          3
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 36,
+      "n": 5,
+      "isosig": "fLAMcbbcdeedhgaqj",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          5
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 38,
+      "n": 5,
+      "isosig": "fLAMcaccdeejgnxxn",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          3
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 39,
+      "n": 5,
+      "isosig": "fLLQcbcedeedvpjmd",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 41,
+      "n": 4,
+      "isosig": "eLPkbcddddjwgk",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          2
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 43,
+      "n": 6,
+      "isosig": "gLLAQccedfeftnachnr",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 44,
+      "n": 6,
+      "isosig": "gLLAQbddeeffajklhnj",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          9
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 48,
+      "n": 5,
+      "isosig": "fLLQcacedeejkamss",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 49,
+      "n": 6,
+      "isosig": "gLLAQbddefffmkbqacj",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 52,
+      "n": 7,
+      "isosig": "hLLLQkcdfgfgfgikqutvkj",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 2,
+      "order_enumeration_complete": true,
+      "determinants": [
+        0
+      ]
+    },
+    {
+      "state": 53,
+      "n": 6,
+      "isosig": "gLLAQbcdeeffmbraagn",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 1,
+      "order_enumeration_complete": true,
+      "determinants": [
+        -1
+      ]
+    },
+    {
+      "state": 54,
+      "n": 6,
+      "isosig": "gLLAQcededfflakxjcj",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 57,
+      "n": 5,
+      "isosig": "fLLQcacdeeejkadbj",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          3
+        ],
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 63,
+      "n": 8,
+      "isosig": "iLLwMQccdegfhhghtkhakvnjc",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          9
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 3,
+      "order_enumeration_complete": true,
+      "determinants": [
+        0
+      ]
+    },
+    {
+      "state": 64,
+      "n": 9,
+      "isosig": "jLLLLQQccfhhfgiiipvebbfcbrc",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          9
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 65,
+      "n": 6,
+      "isosig": "gLLAQacdeeffnkadjds",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          3
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 66,
+      "n": 7,
+      "isosig": "hLLLQkbddgfgfgdwfxwnwo",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          9
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 67,
+      "n": 6,
+      "isosig": "gLLMQcededffahnerwj",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          3
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          8
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 68,
+      "n": 6,
+      "isosig": "gLLQPccddefflnnruhw",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          3
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 72,
+      "n": 8,
+      "isosig": "iLLLMQcbdfggfhhhmkehvvbcb",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          8
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 73,
+      "n": 7,
+      "isosig": "hLLPMkcdefefggakpeqfos",
+      "path": [
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          9
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 76,
+      "n": 5,
+      "isosig": "fLLQcbcedeetjhbdd",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          2
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 78,
+      "n": 9,
+      "isosig": "jvLALQQdeegfihihinvohmbwobr",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          9
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 4,
+      "order_enumeration_complete": true,
+      "determinants": [
+        0
+      ]
+    },
+    {
+      "state": 80,
+      "n": 6,
+      "isosig": "gLLAQccedeffqfmfqfr",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          2
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 83,
+      "n": 6,
+      "isosig": "gLLAQbceefefakqmquj",
+      "path": [
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          8
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 85,
+      "n": 5,
+      "isosig": "fLLQcadedeejpltlo",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          3
+        ],
+        [
+          "face",
+          4
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 86,
+      "n": 6,
+      "isosig": "gLLAQbcedffftsxfakb",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          9
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 87,
+      "n": 10,
+      "isosig": "kLvALMQkcdfhgjgijijlvtngpgkljh",
+      "path": [
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          0
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          9
+        ],
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          0
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 5,
+      "order_enumeration_complete": true,
+      "determinants": [
+        0
+      ]
+    },
+    {
+      "state": 90,
+      "n": 7,
+      "isosig": "hLLAAkccedefggqfmfqfhw",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          3
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          4
+        ],
+        [
+          "face",
+          3
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 95,
+      "n": 5,
+      "isosig": "fLLQcbcedeedwuvqa",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          2
+        ],
+        [
+          "face",
+          6
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 98,
+      "n": 6,
+      "isosig": "gLLAQbddefffxvoxhrw",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          2
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          1
+        ]
+      ],
+      "strict_angles": true,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    },
+    {
+      "state": 100,
+      "n": 7,
+      "isosig": "hLLzQkcdefggfghsaepofc",
+      "path": [
+        [
+          "face",
+          3
+        ],
+        [
+          "edge",
+          2
+        ],
+        [
+          "face",
+          2
+        ],
+        [
+          "face",
+          6
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "face",
+          3
+        ]
+      ],
+      "strict_angles": false,
+      "orders_checked": 0,
+      "order_enumeration_complete": true,
+      "determinants": []
+    }
+  ],
+  "candidates": [],
+  "elapsed_seconds": 0.107,
+  "finished_by": "state_limit"
+}

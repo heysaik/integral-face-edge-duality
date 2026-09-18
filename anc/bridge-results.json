@@ -1,0 +1,437 @@
+[
+  {
+    "name": "4_1",
+    "order": 0,
+    "n": 2,
+    "domain_dim": 2,
+    "image_dim": 2,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      2,
+      -1
+    ]
+  },
+  {
+    "name": "4_1",
+    "order": 1,
+    "n": 2,
+    "domain_dim": 2,
+    "image_dim": 2,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      2,
+      -1
+    ]
+  },
+  {
+    "name": "6_3",
+    "order": 0,
+    "n": 6,
+    "domain_dim": 6,
+    "image_dim": 6,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      2,
+      -1
+    ]
+  },
+  {
+    "name": "6_3",
+    "order": 1,
+    "n": 6,
+    "domain_dim": 6,
+    "image_dim": 6,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      2,
+      -1
+    ]
+  },
+  {
+    "name": "6_3",
+    "order": 2,
+    "n": 6,
+    "domain_dim": 6,
+    "image_dim": 6,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "order": 3,
+    "n": 6,
+    "domain_dim": 6,
+    "image_dim": 6,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      2,
+      -1
+    ]
+  },
+  {
+    "name": "6_3",
+    "order": 4,
+    "n": 6,
+    "domain_dim": 6,
+    "image_dim": 6,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "order": 5,
+    "n": 6,
+    "domain_dim": 6,
+    "image_dim": 6,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      2,
+      -1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 0,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 1,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 2,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 3,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 4,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 5,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 6,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 7,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 8,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      4,
+      -3
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 9,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      4,
+      -3
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 10,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      -1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 11,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      -1
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 12,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 13,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 14,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      -2
+    ]
+  },
+  {
+    "name": "7_7",
+    "order": 15,
+    "n": 8,
+    "domain_dim": 8,
+    "image_dim": 8,
+    "null_c": 1,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      -2
+    ]
+  },
+  {
+    "name": "m009",
+    "order": 0,
+    "n": 3,
+    "domain_dim": 3,
+    "image_dim": 3,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      1,
+      0
+    ]
+  },
+  {
+    "name": "m009",
+    "order": 1,
+    "n": 3,
+    "domain_dim": 3,
+    "image_dim": 3,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "m038",
+    "order": 0,
+    "n": 4,
+    "domain_dim": 4,
+    "image_dim": 4,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      -2
+    ]
+  },
+  {
+    "name": "m038",
+    "order": 1,
+    "n": 4,
+    "domain_dim": 4,
+    "image_dim": 4,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": true,
+    "slope": [
+      3,
+      -5
+    ]
+  },
+  {
+    "name": "dLQacccjgnk",
+    "order": 0,
+    "n": 3,
+    "domain_dim": 3,
+    "image_dim": 3,
+    "null_c": 0,
+    "gluing_and_longitude_vanish": true,
+    "symplectic": true,
+    "strict_angles": false,
+    "slope": [
+      2,
+      7
+    ]
+  }
+]

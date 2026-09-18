@@ -1,0 +1,26 @@
+[
+  {
+    "n": 1,
+    "face_pairings": 3,
+    "oriented_torus_homology_cases": 0,
+    "no_low_degree_cases": 0,
+    "zero_edge_matrix_cases": 0,
+    "strict_angle_cases": 0
+  },
+  {
+    "n": 2,
+    "face_pairings": 105,
+    "oriented_torus_homology_cases": 10,
+    "no_low_degree_cases": 1,
+    "zero_edge_matrix_cases": 8,
+    "strict_angle_cases": 1
+  },
+  {
+    "n": 3,
+    "face_pairings": 10395,
+    "oriented_torus_homology_cases": 702,
+    "no_low_degree_cases": 42,
+    "zero_edge_matrix_cases": 24,
+    "strict_angle_cases": 30
+  }
+]

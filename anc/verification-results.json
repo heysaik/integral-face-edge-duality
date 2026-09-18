@@ -1,0 +1,570 @@
+[
+  {
+    "name": "4_1",
+    "n": 2,
+    "null_c": 0,
+    "absdet_c": 1,
+    "absdet_b": 2,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      2,
+      -1
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "smith_b": [
+      1,
+      2
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 0,
+        "null_b": 1
+      },
+      "3": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "5": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "5_2",
+    "n": 3,
+    "null_c": 0,
+    "absdet_c": 1,
+    "absdet_b": 2,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      2,
+      -1
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "smith_b": [
+      1,
+      1,
+      2
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 0,
+        "null_b": 1
+      },
+      "3": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "5": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "6_3",
+    "n": 6,
+    "null_c": 0,
+    "absdet_c": 1,
+    "absdet_b": 2,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      2,
+      -1
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 0,
+        "null_b": 1
+      },
+      "3": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "5": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "6_3",
+    "n": 6,
+    "null_c": 1,
+    "absdet_c": 0,
+    "absdet_b": 0,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      2,
+      -1
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 1,
+        "null_b": 3
+      },
+      "3": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "5": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "7": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "11": {
+        "null_c": 1,
+        "null_b": 2
+      }
+    }
+  },
+  {
+    "name": "7_7",
+    "n": 8,
+    "null_c": 0,
+    "absdet_c": 1,
+    "absdet_b": 2,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      3,
+      -2
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 0,
+        "null_b": 1
+      },
+      "3": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "5": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "7_7",
+    "n": 8,
+    "null_c": 1,
+    "absdet_c": 0,
+    "absdet_b": 0,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      3,
+      -2
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      0,
+      0
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 1,
+        "null_b": 3
+      },
+      "3": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "5": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "7": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "11": {
+        "null_c": 1,
+        "null_b": 2
+      }
+    }
+  },
+  {
+    "name": "m038",
+    "n": 4,
+    "null_c": 0,
+    "absdet_c": 3,
+    "absdet_b": 18,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      3,
+      -2
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "smith_b": [
+      1,
+      1,
+      3,
+      6
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 0,
+        "null_b": 1
+      },
+      "3": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "5": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "m120",
+    "n": 5,
+    "null_c": 0,
+    "absdet_c": 5,
+    "absdet_b": 50,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      13,
+      -8
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      5,
+      10
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 0,
+        "null_b": 1
+      },
+      "3": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "5": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "m121",
+    "n": 5,
+    "null_c": 0,
+    "absdet_c": 4,
+    "absdet_b": 32,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      27,
+      -4
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      4
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      4,
+      8
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 1,
+        "null_b": 2
+      },
+      "3": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "5": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "7": {
+        "null_c": 0,
+        "null_b": 0
+      },
+      "11": {
+        "null_c": 0,
+        "null_b": 0
+      }
+    }
+  },
+  {
+    "name": "7_7",
+    "n": 9,
+    "null_c": 2,
+    "absdet_c": 0,
+    "absdet_b": 0,
+    "exact_checks": "PASS",
+    "strict_angles": true,
+    "longitude_slope": [
+      3,
+      1
+    ],
+    "smith_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "smith_b": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "integer_kernel_decomposition": "PASS",
+    "modular_checks": {
+      "2": {
+        "null_c": 2,
+        "null_b": 5
+      },
+      "3": {
+        "null_c": 2,
+        "null_b": 4
+      },
+      "5": {
+        "null_c": 2,
+        "null_b": 4
+      },
+      "7": {
+        "null_c": 2,
+        "null_b": 4
+      },
+      "11": {
+        "null_c": 2,
+        "null_b": 4
+      }
+    }
+  }
+]

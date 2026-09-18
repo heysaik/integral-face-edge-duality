@@ -1,0 +1,602 @@
+[
+  {
+    "name": "4_1",
+    "step": 0,
+    "n": 3,
+    "isosig": "dLQbcccdegj",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 1,
+    "n": 2,
+    "isosig": "cPcbbbiht",
+    "orders": 2,
+    "determinants": [
+      -1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 3,
+    "n": 4,
+    "isosig": "eLPkbcdddmbkgw",
+    "orders": 2,
+    "determinants": [
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 6,
+    "n": 5,
+    "isosig": "fLLQcbeddeehhjved",
+    "orders": 2,
+    "determinants": [
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 7,
+    "n": 6,
+    "isosig": "gLLAQbddefffxwrqdvk",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 8,
+    "n": 7,
+    "isosig": "hLLAPkccdegfggqvvhwvcr",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 9,
+    "n": 6,
+    "isosig": "gLLMQbcdeffflkbhusk",
+    "orders": 2,
+    "determinants": [
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 14,
+    "n": 7,
+    "isosig": "hLLAPkbcdefggglkbmbkjf",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 15,
+    "n": 8,
+    "isosig": "iLLvQQccceghfhghqfhmcfvog",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 20,
+    "n": 9,
+    "isosig": "jLLLPMQcddghfihiihsgssfdwxe",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 21,
+    "n": 8,
+    "isosig": "iLLLPQcbceffhghhdfulgwvfg",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 22,
+    "n": 9,
+    "isosig": "jLLLPQPbcfefghhiiebpiobrrxn",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 25,
+    "n": 8,
+    "isosig": "iLvAAQcadfegghhhnaqcvnath",
+    "orders": 2,
+    "determinants": [
+      -1
+    ]
+  },
+  {
+    "name": "4_1",
+    "step": 40,
+    "n": 7,
+    "isosig": "hLLAAkbdedffggeregajhr",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 0,
+    "n": 4,
+    "isosig": "eLPkbcdddhggcv",
+    "orders": 2,
+    "determinants": [
+      -1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 6,
+    "n": 4,
+    "isosig": "eLAkbccddhhnqs",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 7,
+    "n": 5,
+    "isosig": "fLLQcaddeeenuaplf",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 11,
+    "n": 4,
+    "isosig": "eLPkbcddddcwrf",
+    "orders": 2,
+    "determinants": [
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 12,
+    "n": 5,
+    "isosig": "fLLQcbededemdodfd",
+    "orders": 5,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 22,
+    "n": 3,
+    "isosig": "dLQbcccdero",
+    "orders": 2,
+    "determinants": [
+      -1,
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 23,
+    "n": 4,
+    "isosig": "eLPkbcdddmbkgo",
+    "orders": 2,
+    "determinants": [
+      1
+    ]
+  },
+  {
+    "name": "5_2",
+    "step": 24,
+    "n": 5,
+    "isosig": "fvPQccdedeeccvssg",
+    "orders": 2,
+    "determinants": [
+      -1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 0,
+    "n": 7,
+    "isosig": "hLLMMkbceefggghgatakkb",
+    "orders": 10,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 1,
+    "n": 6,
+    "isosig": "gLLPQccdefffhggaacv",
+    "orders": 6,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 3,
+    "n": 8,
+    "isosig": "iLLLMQccddeghghhhogiotoma",
+    "orders": 15,
+    "determinants": [
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 4,
+    "n": 9,
+    "isosig": "jLLLAMQcddeghiihihogiodiiuf",
+    "orders": 19,
+    "determinants": [
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 5,
+    "n": 8,
+    "isosig": "iLLLAQcbedeghghhedfdehodu",
+    "orders": 11,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 7,
+    "n": 8,
+    "isosig": "iLLLMQcbddfhgghhmvkqigopl",
+    "orders": 11,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 8,
+    "n": 9,
+    "isosig": "jLLLAPQcddffhiihiicsagieuts",
+    "orders": 11,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 9,
+    "n": 8,
+    "isosig": "iLLLMQccedgfhghhiiflccfof",
+    "orders": 10,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 10,
+    "n": 9,
+    "isosig": "jLLALMQbcedgghiiipgmfwfmaks",
+    "orders": 20,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 17,
+    "n": 8,
+    "isosig": "iLLLMQcbcgefhghhpvdlgsvrr",
+    "orders": 9,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 18,
+    "n": 9,
+    "isosig": "jLLPLPQccefghihiidgmaffacda",
+    "orders": 13,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 20,
+    "n": 9,
+    "isosig": "jLLLLQQbcghfiihhimouffvvvvr",
+    "orders": 11,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 22,
+    "n": 9,
+    "isosig": "jvLALQQceegiihghiwvctaccvjb",
+    "orders": 11,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 23,
+    "n": 8,
+    "isosig": "ivLAMQcceegfhghhwvcmaagbc",
+    "orders": 11,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 24,
+    "n": 9,
+    "isosig": "jLvAMPQcdffhgihiidvepsrmsqh",
+    "orders": 16,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 25,
+    "n": 8,
+    "isosig": "iLLLMQcbcfghhfghmghpbkgow",
+    "orders": 13,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 37,
+    "n": 8,
+    "isosig": "iLLLAQcbcegfhghhmotttioqa",
+    "orders": 13,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 40,
+    "n": 9,
+    "isosig": "jLvAwQQcdeeihgihidvaxmvcisx",
+    "orders": 16,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 41,
+    "n": 8,
+    "isosig": "iLLLPQcbddghfghhmkvwwgobb",
+    "orders": 11,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 42,
+    "n": 9,
+    "isosig": "jLLLwQQcdeeighihiioiiqortci",
+    "orders": 12,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 43,
+    "n": 8,
+    "isosig": "iLLLMQcbcgffhhghpvdqgsvvr",
+    "orders": 10,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "6_3",
+    "step": 44,
+    "n": 9,
+    "isosig": "jvLAMPQdedfghiihiofgalgbfbk",
+    "orders": 12,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 0,
+    "n": 9,
+    "isosig": "jLLLAMQcceffhiihidwxtxpdper",
+    "orders": 18,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 1,
+    "n": 8,
+    "isosig": "iLLPzQcbcffghghhmomtdirhx",
+    "orders": 16,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 2,
+    "n": 9,
+    "isosig": "jLLLMPQcedgfhhiiiiifxgjrqti",
+    "orders": 18,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 4,
+    "n": 9,
+    "isosig": "jLLMLPQcceffhihiidfeqgrmctx",
+    "orders": 30,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 12,
+    "n": 9,
+    "isosig": "jLLPLMQbcffhgiihimomtjjuqch",
+    "orders": 21,
+    "determinants": [
+      -1,
+      0
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 14,
+    "n": 9,
+    "isosig": "jLLLLQQbcfihhighipvtkjkkvfn",
+    "orders": 20,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 26,
+    "n": 9,
+    "isosig": "jLLLAMQcceffhihiidwaxupdehk",
+    "orders": 22,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 30,
+    "n": 9,
+    "isosig": "jLvLAQQbfhghigiihmpulbgbkso",
+    "orders": 20,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 40,
+    "n": 9,
+    "isosig": "jLLMzPQcdcegihihiiccaoidlpr",
+    "orders": 22,
+    "determinants": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "7_7",
+    "step": 48,
+    "n": 9,
+    "isosig": "jLLLMPQcedgfhhiiiiiftcgolxx",
+    "orders": 22,
+    "determinants": [
+      -1,
+      0,
+      1
+    ]
+  }
+]
