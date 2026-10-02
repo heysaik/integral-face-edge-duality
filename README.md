@@ -9,7 +9,7 @@
 
 This mathematical preprint contains proposed proofs and is circulated for critical scrutiny. Partial informal specialist feedback has been received. Full independent verification of the arguments and their novelty, and formal peer review, remain incomplete. The current revision is dated October 2, 2026.
 
-The release records the exact manuscript and supporting files made public at that time. It does not establish mathematical correctness, priority over other work, or acceptance by arXiv or a journal. No arXiv identifier or DOI has been assigned to this preprint.
+The release records the exact manuscript and supporting files made public at that time. It does not establish mathematical correctness, priority over other work, or acceptance by arXiv or a journal. The preprint was submitted to arXiv in math.GT on October 2, 2026 and is awaiting processing and moderation. No public arXiv identifier or DOI has been assigned yet.
 
 ## Revision history
 
