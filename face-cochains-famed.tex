@@ -27,7 +27,7 @@
 \newcommand{\eps}{\varepsilon}
 \title{Integral face--edge duality for knot triangulations}
 \author{Sai Kambampati\\\small \href{mailto:sai@kambampati.studio}{sai@kambampati.studio}}
-\date{September 16, 2026}
+\date{October 2, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -42,7 +42,7 @@ The question considered here is why the face matrices and the gluing matrices sh
 This construction gives the rational correspondence below, including singular face matrices. Integral lifts then relate kernels and cokernels over $\Z$. Finally, a combinatorial rank argument under a strict angle structure supplies the additional condition in Wong's generalized FAMED conjecture. The analytic consequences are applications of Wong's existing theorem. The determinant-one assertion in the original FAMED conjecture requires a further argument and remains open here.
 
 \subsection{Conventions and notation}
-Let $M$ be the compact exterior of a knot in $S^3$, and let $\mathcal T$ be an ordered ideal triangulation of its interior with $N$ tetrahedra. All faces are paired; there is one ideal vertex, $2N$ quotient faces and $N$ quotient edges. ``Ordered'' means that local vertex orders are compatible on glued faces. Fix an orientation of $M$. The sign of tetrahedron $i$ relative to its vertex order $0<1<2<3$ is $\eps_i\in\{1,-1\}$. If faces opposite vertices $k,l$ in tetrahedra $i,j$ are paired, then
+Let $M$ be the compact exterior of a knot in $S^3$, and let $\mathcal T$ be an ordered ideal triangulation of its interior with $N$ tetrahedra. The triangulation is formed from abstract tetrahedra by pairing their face occurrences and removing the vertices. Paired faces may belong to the same tetrahedron, and distinct local edges may represent the same quotient edge. All faces are paired; there is one ideal vertex, $2N$ quotient faces and $N$ quotient edges. ``Ordered'' means that each abstract tetrahedron has a vertex order and every face pairing preserves the induced order on its three corners. These corners remain distinct in the abstract face even though all quotient vertices coincide. Fix an orientation of $M$. The sign of tetrahedron $i$ relative to its vertex order $0<1<2<3$ is $\eps_i\in\{1,-1\}$. If faces opposite vertices $k,l$ in tetrahedra $i,j$ are paired, then
 \begin{equation}\eps_i(-1)^k=-\eps_j(-1)^l.\label{eq:facesign}\end{equation}
 Let $X_k$ be the $N\times2N$ incidence matrix recording the quotient face opposite local vertex $k$. Set
 \begin{equation}
@@ -52,10 +52,55 @@ Let $X_k$ be the $N\times2N$ incidence matrix recording the quotient face opposi
 \end{equation}
 In the notation of \cite{BW,Wong}, our matrices $(C,D,R,E)$ are $(\mathscr A,\mathscr B,\mathscr X_0,\mathscr E)$. In \cite{BGW}, they are $(\mathcal A,\mathcal B\mathcal E,\mathcal X_0,\mathcal E)$: that paper defines $\mathcal B=\binom{0}{I}$, whereas here $D=\binom{0}{E}$. Our $A,B$ below agree with the gluing matrices $\mathbf A,\mathbf B$ in these sources. Each row of $X_k$ has one entry equal to $1$, in the column of the corresponding quotient face. Distinct local faces can give the same column. Local orders, rather than a global ordering of ideal vertices, are the data being fixed.
 
-Use the shape placement of those papers: $z$ corresponds to edges $01,23$; for a positive tetrahedron, $z'$ corresponds to $03,12$ and $z''$ to $02,13$. These latter two pairs exchange for a negative tetrahedron. Delete one redundant edge equation and append the equation for a fixed preferred longitude $\lambda$. With the resulting shape exponent matrices $G,G',G''$, put
+Use the shape placement of those papers. The following table also gives
+the dictionary with the quadrilateral types in \cite[Section 3.1]{GHHHR}:
+each quadrilateral faces the indicated pair of opposite edges.
+\[
+\begin{array}{c|ccc}
+\text{opposite-edge pair}&01\mid23&02\mid13&03\mid12\\\hline
+\eps_i=+1&z&z''&z'\\
+\eps_i=-1&z&z'&z''
+\end{array}
+\]
+For a quotient edge $e$ and tetrahedron $i$, let
+$(G_{\rm edge})_{ei}$ be the number of local edge occurrences of type
+$z$ in tetrahedron $i$ that represent $e$. Define
+$G'_{\rm edge},G''_{\rm edge}$ in the same way for $z',z''$.
+All three full edge matrices are $N\times N$; repeated occurrences
+are counted separately. Put
+\[
+A_{\rm edge}=G_{\rm edge}-G'_{\rm edge},\qquad
+B_{\rm edge}=G''_{\rm edge}-G'_{\rm edge}.
+\]
+
+Choose an oriented simple closed curve $\lambda$ on $\partial M$
+whose class is a primitive generator of
+$\ker[H_1(\partial M;\Z)\to H_1(M;\Z)]$.
+This is the preferred longitude, with either orientation allowed.
+Represent it normally in the cusp triangulation: each arc crosses a
+triangle between distinct sides and cuts off one corner. Orient the
+cusp by the boundary orientation of $M$. An arc contributes $+1$ if
+the cut-off corner lies to its left and $-1$ if it lies to its right.
+Its contribution is assigned to the shape type of the tetrahedron
+edge at that corner. Summing all such contributions in tetrahedron
+$i$ defines the three integer entries $g_{\lambda i}$,
+$g'_{\lambda i},g''_{\lambda i}$. Section~\ref{sec:peripheral}
+expresses this turning sign in local vertex coordinates.
+
+Delete the same one edge row from $G_{\rm edge},G'_{\rm edge},
+G''_{\rm edge}$ and append the respective longitude rows to obtain
+$N\times N$ matrices $G,G',G''$. Put
 \begin{equation}A=G-G',\qquad B=G''-G'.\label{eq:nz}\end{equation}
+When simplifying a peripheral formula, one may add integral combinations
+of edge rows and of the tetrahedral rows $(1,1,1)$, carrying the lifted
+logarithmic constants with them as in Section~\ref{sec:affine}.
+No rescaling is made. Tetrahedral rows vanish after prime elimination;
+edge-row additions are integral row operations on the retained system,
+since the eliminated full edge rows sum to zero.
 \begin{lemma}[Rank and symplectic identities]\label{lem:nzfacts}
-The edge rows have rank $N-1$, and their sole linear relation is their sum.
+The full eliminated edge block $(A_{\rm edge}\mid B_{\rm edge})$
+has rank $N-1$, and its row relations are generated by the sum of all
+rows being zero.
 After one edge row is deleted and the row for any nonzero class in
 $H_1(\partial M;\Q)$ is appended, the resulting matrices satisfy
 \begin{equation}
@@ -66,8 +111,10 @@ These facts require no shape solution or angle structure.
 \end{lemma}
 \begin{proof}
 Apply the combinatorial complex in \cite[Theorem~4.1]{Neumann} to the
-ideal compactification. Over $\Q$, its edge map has kernel generated by
-the sum of the edges when there is one ideal vertex. Thus its image has
+ideal compactification. At the unique ideal vertex $v$, Neumann's
+vertex-to-edge map is $\alpha(v)=2\sum_e e$, because every edge has
+both endpoints at $v$. Rational exactness at the edge group therefore
+makes the kernel of the edge map the span of $\sum_e e$. Thus its image has
 dimension $N-1$. The theorem makes this image isotropic in the
 $2N$-dimensional space of tetrahedral edge-pair coordinates. The
 signed-corner map of \cite[Lemma~4.3]{Neumann} injects
@@ -75,9 +122,21 @@ $H_1(\partial M;\Q)$ into the symplectic orthogonal of that image,
 modulo the image itself. Therefore a nonzero peripheral class adds an
 independent row orthogonal to all edge rows. Its pairing with itself is
 zero because the pairing is alternating. Eliminating the prime
-coordinate in each tetrahedron writes these rows as $(A\mid B)$; their
-isotropy is precisely the second identity in \eqref{eq:nzfacts}.
+coordinate in each tetrahedron uses the relation
+$e_z+e_{z'}+e_{z''}=0$ between its opposite-edge generators:
+\[
+g e_z+g'e_{z'}+g''e_{z''}
+=(g-g')e_z+(g''-g')e_{z''}.
+\]
+In the shape placement above this writes the rows as $(A\mid B)$;
+their isotropy is precisely the second identity in \eqref{eq:nzfacts}.
+The raw edge exponent rows instead sum to $(2,2,2)$ in every
+tetrahedron, which becomes zero after this elimination.
 \end{proof}
+For the original geometric setting, see \cite[Theorem 2.2 and
+Propositions 2.3 and 2.5]{NZ}. The combinatorial formulation used here
+does not require a geometric shape solution. The same coordinate
+dictionary is used integrally in Section~\ref{sec:integral}.
 The preferred longitude is nonzero in $H_1(\partial M;\Q)$, as required
 by this lemma, but maps to zero in $H_1(M;\Q)$. Its vanishing in the
 interior homology is a different fact, used in
@@ -85,7 +144,18 @@ Section~\ref{sec:peripheral}.
 Our homogeneous shape coordinates are
 \begin{equation}(\delta\log z,\delta\log z',\delta\log z'')=(t,s-t,-s),\label{eq:shapes}\end{equation}
 so their gluing relation is $At-Bs=0$.
-The peripheral row is the unhalved sum of signed corner contributions around $\lambda$, as in \cite{BGW,Wong}. Dividing this row by two would change the integral normalization and the determinant statement below. The variables in \eqref{eq:shapes} are formal homogeneous logarithmic coordinates. Their use does not assume that a geometric shape solution has been chosen.
+The peripheral row comes from the full, unhalved signed-corner sum,
+with the allowed simplifications above, as in \cite{BGW,Wong}.
+Primitivity refers to the class $[\lambda]$, not to
+the integer row, which need not be primitive. The corresponding
+quadrilateral class has boundary $2[\lambda]$ in the normalization
+of \cite[Section 7.1]{GHHHR}; the integral argument below explains
+this factor. Dividing the row by two would change the integral
+normalization and the determinant statement. Reversing the global
+turning convention negates the peripheral row and does not change
+the relation or the absolute determinant. The variables in
+\eqref{eq:shapes} are formal homogeneous logarithmic coordinates.
+Their use does not assume that a geometric shape solution has been chosen.
 
 We use $X=M/\partial M$ for the ideal compactification. Unless a coefficient ring is displayed, kernels, images, ranks and nullities are over $\Q$, or over $\R$ after extension of scalars; the ranks are the same. For an integer matrix $T$ with $m$ rows, $\coker T$ means $\Z^m/T\Z^{\operatorname{cols}(T)}$. A sublattice is \emph{primitive} if its quotient in the ambient lattice is torsion-free. The bars in $\Ct$ and $\Rt$ denote reversal of the local orders, not complex conjugation.
 
@@ -106,6 +176,30 @@ $W$ & Common solvability space in Section~\ref{sec:relation}\\
 \end{center}
 
 \subsection{Main statements}
+
+The construction underlying the results is an explicit correspondence
+between pairs of compatible face assignments and the homogeneous
+gluing relation. Define
+\[
+\mathcal F_{\Q}=\left\{(x,y)\in(\Q^{2N})^2:
+\begin{aligned}
+ (X_0-X_1+X_2)x&=0,\\
+ (X_3-X_2+X_1)y&=0,\\
+ (X_2-X_3)x&=(X_1-X_0)y
+\end{aligned}\right\}.
+\]
+Sections~\ref{sec:pairing}--\ref{sec:injectivity} prove that the map
+\[
+\begin{gathered}
+\Phi_{\Q}:\mathcal F_{\Q}\longrightarrow\ker_{\Q}(A\mid-B),
+\qquad (x,y)\longmapsto(t,s),\\
+t=E(X_2-X_3)x,\qquad s=X_0x+X_3y+\Delta t.
+\end{gathered}
+\]
+is an isomorphism. In particular, every formal solution $(t,s)$ has
+a unique pair of compatible face assignments. The matrix identities
+below are consequences of this correspondence; its complexification
+is used in Section~\ref{sec:affine}.
 
 \begin{theorem}[Rational face--edge duality]\label{thm:main}
 With these conventions, put $n=\nullity C$. Then
@@ -186,15 +280,23 @@ tetrahedron sign. The reversed face matrix and restriction map are
 \Ct=\begin{pmatrix}X_3-X_2+X_1\\X_1-X_0\end{pmatrix},
 \qquad \Rt=X_3.
 \]
-Let $V=\R^{4N}$ denote the space of local face assignments. Equip it with
+Let $V=\R^{4N}$ denote the space of local face assignments. If $f(i,k)$
+is the quotient face represented by local face $k$ of tetrahedron $i$,
+the map from quotient-face coordinates to local coordinates is
+\[
+\jmath:\R^{2N}\longrightarrow V,\qquad
+\jmath(x)_{i,k}=x_{f(i,k)}=(X_kx)_i.
+\]
+It is injective, and its image is the subspace $F$ of assignments
+constant on paired faces. Equip $V$ with
 the nondegenerate symmetric pairing
 \begin{equation}
 \langle x,y\rangle=
 \sum_i\eps_i(x_{i0}y_{i0}-x_{i1}y_{i1}+x_{i2}y_{i2}-x_{i3}y_{i3}).
 \label{eq:pair}
 \end{equation}
-The subspace $F\subset V$ of assignments constant on paired faces has
-dimension $2N$. Equation~\eqref{eq:facesign} cancels the two contributions
+The subspace $F$ has dimension $2N$.
+Equation~\eqref{eq:facesign} cancels the two contributions
 of each quotient face, so $\langle F,F\rangle=0$ and hence $F=F^\perp$.
 
 The local homogeneous constraint planes are
@@ -203,9 +305,11 @@ L_i=\{(u,u+v,v,v):u,v\in\R\},\qquad
 \overline L_i=\{(p,p,p+w,w):p,w\in\R\}.
 \]
 Their pairing is zero, and both have dimension two. Thus
-$\overline L_i=L_i^\perp$. Set $L=\bigoplus_iL_i$. Under the natural
-identification of quotient-face assignments with $F$, the kernels of
-$C$ and $\Ct$ are $F\cap L$ and $F\cap L^\perp$. Consequently
+$\overline L_i=L_i^\perp$. Set $L=\bigoplus_iL_i$. Explicitly,
+$\jmath(\ker C)=F\cap L$ and
+$\jmath(\ker\Ct)=F\cap L^\perp$. We use this identification when
+writing a quotient-face assignment as its local tuples $x_i$.
+Consequently
 \[
 \dim(F\cap L^\perp)
 =\dim(F+L)^\perp
@@ -261,7 +365,7 @@ Put $W=S_C\cap S_{\Ct}=S_C\cap O_C$, and define a linear relation
 between two copies of $\R^N$ by
 \begin{equation}
 \mathcal L_F=\{(t,s):Cx=Dt,\ \Ct y=Dt,\
-s=Rx+\Rt y+\Delta t\text{ for some }x,y\}.
+s=Rx+\Rt y+\Delta t\text{ for some }x,y\in\R^{2N}\}.
 \label{eq:relation}
 \end{equation}
 The projection $(t,s)\mapsto t$ has image $W$. Its kernel within
@@ -284,20 +388,24 @@ At this stage no injectivity of the face parametrization has been used.
 
 \section{Local cochains and the edge equations}\label{sec:local}
 Fix $x,y,t,s$ as in \eqref{eq:relation}. For each quotient face $f$,
-write its ordered vertices as $a<b<c$ and assign potentials
+take its abstract characteristic triangle, with ordered corners
+$a<b<c$, and assign potentials on these three corners:
 \[
 \phi_f(a)=0,\qquad\phi_f(b)=x_f,\qquad
 \phi_f(c)=x_f-y_f.
 \]
 Their differences define an additive cochain on the three directed
-edges of the face:
+edge occurrences of this triangle:
 \[
 h_f(ab)=x_f,\qquad h_f(ac)=x_f-y_f,\qquad h_f(bc)=-y_f.
 \]
 The potentials, and therefore the cochains, agree at corresponding
-vertices and edges of a paired face because its gluing preserves the
-vertex order. We do not yet assert agreement between two different
-faces meeting the same tetrahedron edge.
+corners and edge occurrences of paired abstract faces because the
+gluing preserves the order. The potentials are not functions on the
+single quotient vertex. Nor do we yet assert that the cochain values
+agree on distinct occurrences of a quotient edge, whether in the same
+face or in different faces. Descent to quotient edges in the
+zero-shape case is proved in Section~\ref{sec:injectivity}.
 Figure~\ref{fig:facecochain} records the local convention.
 
 \begin{figure}[htbp]
@@ -317,8 +425,8 @@ Figure~\ref{fig:facecochain} records the local convention.
 \put(15,84){\makebox(85,12){$h_{ac}=x-y$}}
 \put(205,84){\makebox(85,12){$h_{bc}=-y$}}
 \end{picture}
-\caption{The local cochain on an ordered face with vertices $a<b<c$.
-Each arrow is oriented from the lower to the higher vertex. Its value is the
+\caption{The local cochain on an abstract face with ordered corners $a<b<c$.
+Each arrow is oriented from the lower to the higher corner. Its value is the
 difference of the endpoint potentials, so $h_{ab}+h_{bc}=h_{ac}$.}
 \label{fig:facecochain}
 \end{figure}
@@ -371,8 +479,9 @@ $M$ whose periods are the peripheral shape holonomies of the face
 data. Its period on the preferred longitude is zero because that
 curve is null-homologous in $M$.
 
-Write $\phi_k(j)$ for the potential at vertex $j$ on local face $k$.
-In each tetrahedron define four auxiliary numbers
+Write $\phi_k(j)$ for the potential at corner $j$ on local face $k$.
+The following auxiliary numbers express the difference of endpoint-potential
+sums on two incident faces as a difference of face values:
 \begin{equation}
 \begin{aligned}
 f_0&=0,&f_1&=-x_2-x_3,\\
@@ -407,7 +516,8 @@ enters face $k$, leaves face $l$, and cuts off the corner corresponding
 to edge $jm$. The truncation triangle has induced boundary orientation
 $-\eps(-1)^j$ relative to the increasing order of its three vertices:
 it is parallel to the face opposite $j$, with the opposite outward
-normal. The arc goes from side $(m,l)$ to side $(m,k)$. Its signed
+normal. The arc goes from side $(m,l)$ to side $(m,k)$. With a corner
+on the left counted positively, as fixed in Section~1.1, its signed
 turn is therefore
 \[
 [-\eps(-1)^j]\,\operatorname{sgn}
@@ -496,8 +606,10 @@ the edges of the ideal compactification $X=M/\partial M$. On every
 triangle it is a difference of vertex potentials, so it is a cellular
 $1$-cocycle.
 
-Conversely, let $h\in Z^1(X;\R)$. On a face with increasing vertices
-$a<b<c$, put $x_f=h(ab)$ and $y_f=-h(bc)$. These are quotient-face
+Conversely, let $h\in Z^1(X;\R)$. On the abstract triangle of face $f$
+with ordered corners $a<b<c$, put $x_f=h(ab)$ and $y_f=-h(bc)$,
+evaluating $h$ on the quotient edges represented by those occurrences.
+These are quotient-face
 values, since $h$ is global and the gluing preserves the order. In a
 tetrahedron they read
 \begin{align*}
@@ -1187,8 +1299,11 @@ $J=\Z^{3N}/\mathscr T$. The quotient map in each tetrahedron is
 \]
 Thus $J\cong\Z^{2N}$ is the row-coordinate lattice for $(A\mid B)$.
 Identify each shape coordinate with the quadrilateral type facing its
-opposite-edge pair; this also fixes the coordinate permutations for
-negative tetrahedra.
+opposite-edge pair, using the table in Section~1.1. Thus the ordered
+pairs $01\mid23,02\mid13,03\mid12$ correspond to $(z,z'',z')$ in a
+positive tetrahedron and $(z,z',z'')$ in a negative tetrahedron. This
+identifies the lattice by edge pairs, independently of the prime names
+used for quadrilateral coordinates in the reference.
 
 Let $Q\subset\Z^{3N}$ be the lattice of integral solutions of the
 quadrilateral matching equations, and let $\mathscr E$ be generated by
@@ -1217,11 +1332,17 @@ In particular, the edge lattice
 $\overline{\mathscr E}=(\mathscr E+\mathscr T)/\mathscr T$
 is primitive in $\overline Q$.
 
-The signed-corner construction for an oriented peripheral curve of class
-$b$ has boundary $2b$, by \cite[Section 7.1]{GHHHR}. Our unhalved
+The signed-corner construction adds one signed quadrilateral for every
+normal arc of an oriented peripheral curve of class $b$. With the
+matching turning and boundary orientations, its boundary is $2b$,
+by \cite[Section 7.1]{GHHHR}; this is also the normalization
+$\gamma\delta=2\operatorname{id}$ in
+\cite[Lemma 4.3(i)]{Neumann}. Our unhalved
 longitude row is this construction for $b=\lambda$, so its image in
 $L_{\partial}$ is $2\lambda$, up to a simultaneous reversal of the
-peripheral orientation convention. Let $L\subset J$ be generated by
+peripheral orientation convention. The permitted additions of edge
+and tetrahedral rows do not change this class in
+$Q/(\mathscr E+\mathscr T)$. Let $L\subset J$ be generated by
 $\overline{\mathscr E}$ and this longitude row. Modulo
 $\overline{\mathscr E}$, it is $2\Z\lambda$, whose saturation in
 $L_{\partial}$ is $\Z\lambda$. Thus
@@ -1515,5 +1636,5 @@ Wong's longitude--meridian conditions in Definition~1.5 of \cite{Wong} remain ad
 \section{AI tools and verification status}
 OpenAI Codex was used extensively to propose and develop the mathematical arguments, draft and revise the manuscript, generate computational checks, search the literature, and conduct internal reviews. The author directed the investigation and preparation of the manuscript. The use of Codex extended to the mathematical development and was not limited to language editing.
 
-The arguments have not been independently verified by a human specialist or a formal proof assistant. Internal reviews and finite exact-arithmetic checks do not establish correctness or novelty. This preprint is circulated for critical scrutiny; responsibility for its contents rests with the named author.
+Partial informal specialist feedback has been received on an earlier draft. This does not constitute a complete independent verification of the arguments, and no formal proof-assistant verification has been completed. Internal reviews and finite exact-arithmetic checks do not establish correctness or novelty. This preprint is circulated for critical scrutiny; responsibility for its contents rests with the named author.
 \end{document}

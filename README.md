@@ -7,9 +7,14 @@
 
 ## Status
 
-This is an unreviewed mathematical preprint circulated for critical scrutiny. It contains proposed proofs; no independent specialist review has verified the arguments or their novelty. The manuscript is dated September 16, 2026. This repository's initial public release is dated September 18, 2026 (UTC).
+This mathematical preprint contains proposed proofs and is circulated for critical scrutiny. Partial informal specialist feedback has been received. Full independent verification of the arguments and their novelty, and formal peer review, remain incomplete. The current revision is dated October 2, 2026.
 
 The release records the exact manuscript and supporting files made public at that time. It does not establish mathematical correctness, priority over other work, or acceptance by arXiv or a journal. No arXiv identifier or DOI has been assigned to this preprint.
+
+## Revision history
+
+- **v2, October 2, 2026:** clarifies definitions, matrix and peripheral conventions, and the translation from cited foundational results to the manuscript's coordinates. The theorem claims and computational scripts are unchanged.
+- **[v1, September 18, 2026](https://github.com/heysaik/integral-face-edge-duality/releases/tag/v1):** initial public release of the manuscript dated September 16, 2026. This snapshot remains available.
 
 ## Scope
 
@@ -19,7 +24,7 @@ The determinant-one assertion, the extra longitude-meridian conditions, and the 
 
 ## Files and reproduction
 
-- `face-cochains-famed.pdf`: the 24-page manuscript, including references and the final appendix.
+- `face-cochains-famed.pdf`: the 26-page manuscript, including references and the final appendix on AI use and verification status.
 - `face-cochains-famed.tex`: its self-contained LaTeX source; the figure is drawn directly in LaTeX.
 - `anc/`: exact-arithmetic scripts, pinned dependencies, input specimens, and recorded results.
 - `SHA256SUMS.txt`: file checksums for this snapshot.
@@ -45,10 +50,10 @@ A local LaTeX rebuild may differ byte-for-byte from the archived PDF because of 
 
 Focused corrections, counterexamples, and references to prior work are welcome through GitHub issues or the author's email. Please identify the relevant statement and hypothesis when reporting a mathematical issue. Suggested starting points are the preferred-longitude argument in Section 5, the generalized-FAMED conclusion in Section 8, and the integral statements in Sections 10-12.
 
-Formal peer review has not been completed. arXiv endorsement, if obtained, is separate from mathematical review.
+arXiv endorsement is separate from mathematical review.
 
 ## Citation
 
-Sai Kambampati, *Integral face-edge duality for knot triangulations*, unreviewed preprint, manuscript dated September 16, 2026, GitHub release v1 (September 18, 2026 UTC).
+Sai Kambampati, *Integral face-edge duality for knot triangulations*, preprint, GitHub release v2 (October 2, 2026).
 
 Please cite a specific release or commit when referring to this version. Later corrections will be recorded in new commits and releases.
