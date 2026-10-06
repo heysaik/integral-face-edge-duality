@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the specific release or commit of this preprint; formal peer review remains incomplete."
+message: "Please cite the arXiv preprint; cite a specific GitHub release or commit for supporting files. Formal peer review remains incomplete."
 type: article
 title: "Integral face-edge duality for knot triangulations"
 authors:
@@ -9,7 +9,8 @@ authors:
 version: "v2"
 date-released: 2026-10-02
 repository-code: "https://github.com/heysaik/integral-face-edge-duality"
-url: "https://github.com/heysaik/integral-face-edge-duality/releases/tag/v2"
+url: "https://arxiv.org/abs/2610.04103"
+doi: "10.48550/arXiv.2610.04103"
 keywords:
   - geometric topology
   - ideal triangulations

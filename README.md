@@ -3,13 +3,15 @@
 **Sai Kambampati**  
 [sai@kambampati.studio](mailto:sai@kambampati.studio)
 
-[Read the manuscript (PDF)](face-cochains-famed.pdf) · [LaTeX source](face-cochains-famed.tex) · [Computational checks](anc/README.md)
+[Read on arXiv](https://arxiv.org/abs/2610.04103) · [Manuscript (PDF)](face-cochains-famed.pdf) · [LaTeX source](face-cochains-famed.tex) · [Computational checks](anc/README.md)
 
 ## Status
 
 This mathematical preprint contains proposed proofs and is circulated for critical scrutiny. Partial informal specialist feedback has been received. Full independent verification of the arguments and their novelty, and formal peer review, remain incomplete. The current revision is dated October 2, 2026.
 
-The release records the exact manuscript and supporting files made public at that time. It does not establish mathematical correctness, priority over other work, or acceptance by arXiv or a journal. The preprint was submitted to arXiv in math.GT on October 2, 2026 and is awaiting processing and moderation. No public arXiv identifier or DOI has been assigned yet.
+The preprint is publicly available as [arXiv:2610.04103](https://arxiv.org/abs/2610.04103) in math.GT, submitted October 2, 2026. DOI: [10.48550/arXiv.2610.04103](https://doi.org/10.48550/arXiv.2610.04103). The first arXiv version corresponds to the manuscript in GitHub release v2.
+
+Each GitHub release records the exact manuscript and supporting files made public at that time. Public availability does not establish mathematical correctness, priority over other work, or acceptance by a journal.
 
 ## Revision history
 
@@ -54,6 +56,6 @@ arXiv endorsement is separate from mathematical review.
 
 ## Citation
 
-Sai Kambampati, *Integral face-edge duality for knot triangulations*, preprint, GitHub release v2 (October 2, 2026).
+Sai Kambampati, *Integral face-edge duality for knot triangulations*, [arXiv:2610.04103](https://arxiv.org/abs/2610.04103) [math.GT] (2026). [doi:10.48550/arXiv.2610.04103](https://doi.org/10.48550/arXiv.2610.04103).
 
-Please cite a specific release or commit when referring to this version. Later corrections will be recorded in new commits and releases.
+The current manuscript is [arXiv v1](https://arxiv.org/abs/2610.04103v1), also archived in [GitHub release v2](https://github.com/heysaik/integral-face-edge-duality/releases/tag/v2). Please cite a specific release or commit when referring to the supporting files. Later corrections will be recorded in new versions, commits, and releases.
